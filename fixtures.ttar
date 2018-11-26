@@ -404,6 +404,26 @@ XfrmOutStateInvalid             28765
 XfrmAcquireError                24532
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Directory: fixtures/pressure
+Mode: 775
+# ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Path: fixtures/pressure/cpu
+Lines: 1
+some avg10=0.05 avg60=0.12 avg300=5.00 total=29151915
+Mode: 664
+# ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Path: fixtures/pressure/io
+Lines: 2
+some avg10=0.08 avg60=0.10 avg300=10.3 total=6164237
+full avg10=0.01 avg60=0.02 avg300=0.02 total=5933015
+Mode: 664
+# ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Path: fixtures/pressure/memory
+Lines: 2
+some avg10=0.00 avg60=0.00 avg300=0.02 total=10
+full avg10=0.00 avg60=0.00 avg300=0.01 total=1
+Mode: 664
+# ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Path: fixtures/self
 SymlinkTo: 26231
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -455,8 +475,4 @@ Mode: 644
 Path: fixtures/symlinktargets/xyz
 Lines: 0
 Mode: 644
-# ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/.unpacked
-Lines: 0
-Mode: 664
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
